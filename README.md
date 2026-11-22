@@ -6,7 +6,7 @@ Windows 桌面端小说内容采集与 TXT 整理工具，支持多书源搜索�
 
 ## 下载与运行
 
-[百度网盘下载小说爬取工具](https://pan.baidu.com/s/1lyuuQwUTJpvkrU5kyGnQow?pwd=dywd)，提取码：`dywd`。
+[GitHub 版本发布页](https://github.com/lanweixiaDW/novel_crawler-/releases)提供已发布版本及附件。[百度网盘备用下载](https://pan.baidu.com/s/1lyuuQwUTJpvkrU5kyGnQow?pwd=dywd)，提取码：`dywd`；网盘内版本以实际文件为准。
 
 复制以下内容分享或在百度网盘手机 App 中打开：
 
@@ -14,13 +14,23 @@ Windows 桌面端小说内容采集与 TXT 整理工具，支持多书源搜索�
 小说爬取工具链接:https://pan.baidu.com/s/1lyuuQwUTJpvkrU5kyGnQow?pwd=dywd 提取码:dywd 复制这段内容后打开百度网盘手机App，操作更方便哦
 ```
 
-[下载用户使用说明书（Word，V4.7.5）](docs/小说抓取工具V4.7.5_用户使用说明书.docx?raw=true)，或先阅读[在线快速上手](docs/QUICK_START.md)。
+[下载用户使用说明书（Word，V4.7.6）](docs/小说抓取工具V4.7.6_用户使用说明书.docx?raw=true)，或先阅读[在线快速上手](docs/QUICK_START.md)。
 
-也可在本仓库的 **Releases** 页面查看已发布版本；若有对应版本附件，可从 **Assets** 下载 Windows EXE。不要把 GitHub 自动生成的 “Source code (zip/tar.gz)” 当作应用程序。
+本页说明对应 **V4.7.6**；该版本的安装包是否已开放下载，以发布页实际附件为准。程序支持 Windows x64，无需自行安装 Python。GitHub 自动生成的 “Source code (zip/tar.gz)” 是公开文档的归档。
 
-本页对应版本：**V4.7.5**。程序为 Windows x64 版本；其他操作系统及 ARM64 原生版本未提供。下载后运行 EXE，无需自行安装 Python。若 Releases 尚无公开附件，请使用上方百度网盘链接。
+现有 V4.7.6 EXE 未附数字签名。请核对下载来源和发布页提供的 SHA-256；遇到系统拦截时先停止运行并核实，不要关闭系统保护来绕过提示。
 
-现有 V4.7.5 EXE 未附数字签名。请核对下载来源和发布页提供的 SHA-256；遇到系统拦截时先停止运行并核实，不要关闭系统保护来绕过提示。
+[V4.7.6 文件校验值](docs/SHA256SUMS_v4.7.6.txt)包含 EXE 与用户说明书的 SHA-256。
+
+## V4.7.6 更新
+
+- 修复跨页目录的分卷错排，以及不同卷同章号被误去重的问题。
+- 改进隐藏错文过滤；正文翻页失败、重复或超时时标记异常并保留候选内容。
+- 待确认导出按账号隔离，异常时保留导出文件与原文件备份。
+- 修复登录或注册请求中关闭窗口崩溃、迟到请求影响当前会话的问题。
+- 自动更新等待旧进程退出，并核对新版启动结果，失败时保留旧程序。
+
+完整记录见[版本更新记录](CHANGELOG.md)。旧 TXT 需要重新解析目录并重抓异常章节后再导出。
 
 ## 主要功能
 
@@ -45,7 +55,7 @@ Windows 桌面端小说内容采集与 TXT 整理工具，支持多书源搜索�
 
 ## 文档与反馈
 
-- [用户使用说明书（Word，V4.7.5）](docs/小说抓取工具V4.7.5_用户使用说明书.docx?raw=true)
+- [用户使用说明书（Word，V4.7.6）](docs/小说抓取工具V4.7.6_用户使用说明书.docx?raw=true)
 - [快速上手](docs/QUICK_START.md)
 - [版本更新记录](CHANGELOG.md)
 - [问题反馈与常见问题](SUPPORT.md)
