@@ -2,7 +2,7 @@
 
 ## 1. 下载与登录
 
-从官方 GitHub 仓库对应 Release 的 Assets 下载 Windows x64 EXE，核对 SHA-256 后运行，无需自行安装 Python。当前 V4.7.5 EXE 未附数字签名；来源或系统提示存疑时先暂停运行并联系发布者。
+从[百度网盘](https://pan.baidu.com/s/1lyuuQwUTJpvkrU5kyGnQow?pwd=dywd)下载软件，提取码：`dywd`；也可在官方 GitHub 仓库对应 Release 有附件时从 Assets 下载。下载 Windows x64 EXE 后，核对发布者提供的 SHA-256 再运行，无需自行安装 Python。完整图文步骤见[用户使用说明书（Word，V4.7.5）](小说抓取工具V4.7.5_用户使用说明书.docx?raw=true)。当前 V4.7.5 EXE 未附数字签名；来源或系统提示存疑时先暂停运行并联系发布者。
 
 已有账号直接登录。首次使用可在登录窗口注册，新用户名使用 1–15 位英文字母或数字，不使用中文、空格或符号；已有账号的兼容规则以软件实际提示为准。设备绑定、余额和导出授权由服务端管理。
 
