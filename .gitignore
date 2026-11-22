@@ -1,0 +1,13 @@
+# This standalone public repository accepts documentation only.
+# Executables belong in Releases after distribution rights are confirmed.
+*
+!.gitignore
+!README.md
+!LICENSE.md
+!CHANGELOG.md
+!SUPPORT.md
+!docs/
+!docs/QUICK_START.md
+!.github/
+!.github/ISSUE_TEMPLATE/
+!.github/ISSUE_TEMPLATE/bug_report.md
